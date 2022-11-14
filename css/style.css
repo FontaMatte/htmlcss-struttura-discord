@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -27,7 +27,7 @@
 
 .logo,.links,.login {
     background-color: orange;
-    width: 25%;
+    width: calc(100% / 3);
     height: 40px;
     border: 1px dashed black;
     line-height: 40px;
@@ -56,7 +56,13 @@ main section {
 }
 
 .section2 {
-    background-color: lightgray;
+    background-color: lightgray;  
+    display: flex;
+    justify-content: center;
+}
+
+.section2 section {
+    width: 75%;
 }
 
 .section-description , .section-photo {
@@ -85,4 +91,43 @@ main section {
     background-color: green;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.footer-top {
+    display: flex;
+
+}
+
+.footer-top-section {
+    width: 15%;
+    height: 300px;
+    background-color: darkgreen;
+    border: 1px dashed black;
+    margin-bottom: 15px;
+    
+}
+
+.footer-top-section1 {
+    width: 40%;
+    height: 300px;
+    background-color: lightcoral;
+    border: 1px dashed black;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    margin-top: 15px;
+}
+
+.button {
+    background-color: orange;
+    width: 25%;
+    height: 40px;
+    border: 1px dashed black;
+    line-height: 40px;
 }
